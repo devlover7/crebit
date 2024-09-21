@@ -1,3 +1,30 @@
+# Folder structure of Crebit_app
+
+crebit-app/
+├── public/
+│   ├── index.html          # The main HTML file for the app
+│   ├── favicon.ico         # The favicon for the app
+│   └── assets/             # Static assets (images, fonts, etc.)
+├── src/
+│   ├── assets/             # Images, fonts, and other static files
+│   ├── components/         # Reusable components (e.g., buttons, headers)
+│   ├── pages/              # Page components (e.g., Home, About, etc.)
+│   ├── hooks/              # Custom React hooks
+│   ├── context/            # Context API files for global state management
+│   ├── services/           # API services for making HTTP requests
+│   ├── utils/              # Utility functions and helpers
+│   ├── styles/             # Global styles (CSS/SCSS) and theme files
+│   ├── types/              # Type definitions for TypeScript
+│   ├── App.tsx             # Main application component
+│   ├── index.tsx           # Entry point for React, renders the App
+│   └── react-app-env.d.ts  # TypeScript environment definitions
+├── tests/                  # Unit and integration tests
+├── .gitignore              # Files and directories to ignore in Git
+├── package.json            # Project dependencies and scripts
+├── tsconfig.json           # TypeScript configuration
+└── README.md               # Documentation about the project
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
